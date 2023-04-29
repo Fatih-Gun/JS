@@ -52,4 +52,5 @@ colors.forEach(element => {
 let soupOfData = [5, "Oscar", true, undefined]; // you can also put Map, Object, Functions inside Array
 soupOfData.forEach(element => {
     console.log(typeof element);
+    
 });
