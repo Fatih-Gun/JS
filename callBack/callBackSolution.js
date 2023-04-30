@@ -13,3 +13,17 @@ function functionThatNeedsBackEndData(info) {
 }
 
 waitingForSomeServerToAct(functionThatNeedsBackEndData);
+
+
+/**
+ * The first solution JS developers came up with was this callBack situation
+ * ES6 -- promises handles async nature of JS
+ * 2017 --- async functions, await keyword
+ * What is a callBack Hell?
+ * What is async code what is sync code?
+ */
+
+// alert("This is a JS alert");
+/**
+ * There are some JS commands like alert, prompt : these will work only in browsers with Live Server
+ */
