@@ -36,3 +36,27 @@ let course ={
 }
 
 console.log(course);
+
+//loop using keys of the object
+for (let key in course) {
+    console.log(key+" : "+course[key]);
+}
+
+// let's create an object with function, array, object in it
+let myCar = {
+    make : 'Dacia',
+    color : 'orange',
+    year : 2022,
+    engine : {
+        cylinders : 3,
+        size : 1.0,
+    },
+    extras : ['AC','Cruise Control','Sound System'],
+    drive : function () {
+        console.log("Running on LPG");
+    }
+}
+
+myCar.drive();
+console.log(myCar.color); 
+console.log(myCar.extras[1]);
